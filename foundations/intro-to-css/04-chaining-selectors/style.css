@@ -1,1 +1,10 @@
 /* Add CSS Styling */
+.avatar.distorted {
+    --base-size: 200px;
+    width: var(--base-size);
+    height: calc(var(--base-size) * 2);
+}
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
